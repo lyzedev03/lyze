@@ -1,0 +1,72 @@
+global:
+        sql_adapter: wpcli
+
+        local:
+                vhost: http://vhost.local
+                wordpress_path: /home/john/sites/your_site # use an absolute path here
+
+                database:
+                        name: database_name
+                        user: user
+                        password: password
+                        host: localhost
+
+
+
+production:
+        vhost: http://example.com
+        wordpress_path: /var/www/your_site # use an absolute path here
+
+        database:
+                name: database_name
+                user: user
+                password: password
+                host: host
+
+
+
+                # port: 3308 # Use just in case you have exotic server config
+                #     # mysqldump_options: --max_allowed_packet=50MB # Only available if using SSH
+                #         # mysql_options: --protocol=TCP # Only available if using SSH
+                #
+exclude:
+        - '.git/'
+        - '.gitignore'
+        - 'node_modules/'
+        - 'bin/'
+        - 'tmp/*'
+        - 'Gemfile*'
+        - 'Movefile'
+        - 'movefile'
+        - 'movefile.yml'
+        - 'movefile.yaml'
+        - 'wp-config.php'
+        - 'wp-content/*.sql.gz'
+        - '*.orig'
+ssh:
+        host: host
+        user: user
+
+# hooks: # Remote hooks won't work with FTP
+#   #   push:
+#     #     before:
+#       #       local:
+#         #         - 'echo "Do something locally before push"'
+#           #       remote:
+#             #         - 'echo "Do something remotely before push"'
+#               #     after:
+#                 #       local:
+#                   #         - 'echo "Do something locally after push"'
+#                     #       remote:
+#                       #         - 'echo "Do something remotely after push"'
+#                         #   pull:
+#                           #     before:
+#                             #       local:
+#                               #         - 'echo "Do something locally before pull"'
+#                                 #       remote:
+#                                   #         - 'echo "Do something remotely before pull"'
+#                                     #     after:
+#                                       #       local:
+#                                         #         - 'echo "Do something locally after pull"'
+#       remote:
+#                                             #         - 'echo "Do something remotely after pull"'
