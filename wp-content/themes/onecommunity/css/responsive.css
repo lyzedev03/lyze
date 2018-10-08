@@ -1,0 +1,369 @@
+@media screen and (max-width:1240px)
+{
+#main { width:960px; }
+.directory.groups #container, .registration #container, .page-template-login-php #container, .page-template-recovery-php #container, .directory.groups #container, .page-template-search-page-php #container, .page-template-onecolumn-page-php #container, .error404 #container, .directory.blogs #container, .create-blog #container { width:960px; }
+#header-very-top { width:960px; }
+#content { width:595px; }
+#content.bbpress-page { width:595px; }
+.registration #content, .page-template-login-php #content, .page-template-recovery-php #content, .directory.groups #content, .page-template-search-page-php #content, .activity-permalink #content, .page-template-onecolumn-page-php #content, .directory.blogs #content, .create-blog #content, .page-template-blog3 #content, .error404 #content { width:908px; }
+footer { width:960px; }
+.page-title { font-size:48px; line-height:58px; }
+.entry #bbpress-forums:first-child { margin-top:-24px; }
+
+#sidebar { width: 312px; }
+.sidebar-title { font-size:22px; padding:12px 18px; }
+.sidebar-box-child { padding:0 20px 0 20px; }
+#sidebar img { max-width:100%; }
+#sidebar select { max-width: 180px; }
+
+
+.post-title a { font-size:36px; line-height:1em; }
+a.blog-bottom-comments {font-size:14px; }
+
+td.forum-head-counter { width:80px; }
+td.forum-counter-cell { width:80px; }
+td.forum-head-freshness { width:170px; }
+td.forum-freshness-cell { width:170px; }
+.topic-freshness { margin-top:0px; }
+.topic-freshness img { display:block; width:30px; height:30px; margin-top:2px; }
+.last-poster-avatar { width:40px; padding-bottom:6px; overflow:hidden; float:left; }
+.last-poster-right { margin-left:10px; margin-top:0px; width:100px; float:left; }
+.topic-title a.forum-post-title { font-size:16px }
+table#topic-post-list tr td.post-author-cell { width:103px; }
+.closed-label { width:20px; height:22px;  background-position: 0px 2px; }
+.sticky-label { width:20px; height:22px; background-position: 0px 2px; }
+
+
+.forum-head-counter.posts-count, .forum-counter-cell.posts-count { display:none; }
+
+#bbpress-forums h3 { font-size:32px; line-height:45px; }
+
+#object-nav ul li, #object-nav2 ul li { padding:11px 10px; }
+body.bp-user #object-nav ul li { padding:9px 10px; }
+
+.page-template-search-page-php #search-form { margin:140px 0 140px 120px; width:690px; }
+
+.activity-list .activity-avatar img { width:45px; height:auto; }
+
+#message-threads .thread-from { padding-right:0px; }
+
+#comments { background-position: 540px 0; }
+.commentlist div.comment-content { width:420px; }
+
+ol.commentlist ul.children li .comment-body { padding-left:80px; width:520px; }
+ol.commentlist ul.children li ul li .comment-body { padding-left:146px; width:455px; }
+ol.commentlist ul.children li ul li ul li .comment-body { padding-left:214px; width:388px; }
+
+ol.commentlist ul.children .comment-content { width:350px; }
+ol.commentlist ul.children ul .comment-content { width:280px; }
+ol.commentlist ul.children ul ul .comment-content { width:220px; }
+
+#blogs-list li { margin:20px 13px 0px 20px; }
+
+ul.item-list li div.item-meta { padding-left:74px; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px)
+{
+#main { width:720px; }
+.directory.groups #container, .directory.groups #container, .registration #container, .page-template-login-php #container, .page-template-recovery-php #container, .directory.groups #container, .page-template-search-page-php #container, .page-template-onecolumn-page-php #container, .error404 #container, .directory.blogs #container, .create-blog #container { width:720px; }
+#header-very-top { width:720px; }
+#content { width:666px; border-right:1px solid #eaeaea!important; }
+#sidebar { width:716px; float:left; margin-top:35px; border-left:1px solid #eaeaea!important; }
+.registration #content, .page-template-login-php #content, .page-template-recovery-php #content, .directory.groups #content, .page-template-search-page-php #content, .activity-permalink #content, .page-template-onecolumn-page-php #content, .directory.blogs #content, .create-blog #content, .page-template-blog3 #content, .error404 #content { width:668px; }
+footer { width:720px; }
+
+.sidebar-title { padding:12px 26px; }
+.sidebar-box-child { padding:0 28px 0 28px; }
+.sidebar-box {width:100%; float:left; }
+#sidebar .clear { clear:none; }
+
+nav { display:none; }
+#mobile-nav { display:block; text-align:center; } 
+header { height:auto; }
+#header-left { width: 250px; display: table; }
+#header-left #logo { margin-top: 18px; }
+#header-left #logo img { width: 100%; height:auto; }
+#header-right { width: 317px; height: 135px; }
+#header-right-1 { float:right; width:158px; height:122px; }
+header .tile { width:76px; height:57px; }
+header .tile img { margin-top:6px; margin-left:6px; height:28px; width:auto; }
+header .tile-title { font-size:9px; }
+#header-right-2 { height:122px; width:158px; }
+.header-right-2-bottom { display: table; float: right; width:160px; }
+header .tile2 { width:156px; height:57px; }
+header #tile-user { width:156px; display: table; float: right; }
+header .tile-avatar { margin-right:5px; border-right:4px solid #ffffff; float: left; }
+header .tile-avatar img { width:57px; height:57px; }
+header .tile-username { width:90px; font-size:13px; line-height: 1em; margin-top:4px; }
+header .tile-username a { font-size:13px!important; }
+header .tile-logout { font-size:9px; margin-top: 7px; }
+header .tile-logout a { font-size:9px; }
+header a.tile-messages { margin-top:4px; width:17px; font-size: 15px; padding-left:22px; background-position: 0px 4px;background-repeat: no-repeat; background-size: 16px auto; }
+
+
+
+
+.page-title { font-size:55px; line-height:65px; }
+.entry #bbpress-forums:first-child { margin-top:-23px; }
+
+.post-title h1 { line-height:40px; }
+.post-title h1 a { font-size:32px; line-height:40px; }
+a.blog-bottom-comments {font-size:14px; }
+
+div#item-header div#item-header-content { width:66%; }
+
+td.forum-author-cell { width:60px!important; padding-left:10px!important; }
+td.forum-head-counter, td.forum-counter-cell { width:70px; }
+td.forum-head-freshness, td.forum-freshness-cell { width:160px; padding-right:0px!important; }
+.topic-counter { font-size:26px; width:50px; padding-top:14px; background-size:50px auto; }
+#topic-post-list .topic-counter { padding-top:13px; height:40px; }
+
+#bbpress-forums h3 { font-size:24px!important; line-height:38px!important; }
+
+.page-template-frontpage1 #object-nav ul li, .page-template-frontpage1 #object-nav2 ul li, .page-template-frontpage2 #object-nav ul li, .page-template-frontpage2 #object-nav2 ul li { padding:14px 19px; }
+.single-item #object-nav ul li { padding-left:16px; padding-right:16px; }
+#subnav ul li { margin-right:14px; }
+
+
+div.thumbnail { width:97%; }
+
+#comments { background-position: 520px 0; }
+.commentlist div.comment-content { width:400px; }
+.comment-counter { background-size: 55px 55px; }
+.comment-counter { margin-top:20px; padding-top:11px; width:55px; height:53px; }
+.comment-counter a { font-size:32px; line-height:32px; }
+ol.commentlist div.comment-avatar-box { width:40px; height: 40px; }
+ol.commentlist div.comment-avatar-box img { width:100%; height:auto; }
+.commentlist ul.children div.comment-avatar-box {width:35px; height: 35px;}
+.commentlist ul.children div.comment-avatar-box img {width:100%; height:auto;}
+
+ol.commentlist ul.children li .comment-body { padding-left:65px; width:506px; }
+ol.commentlist ul.children li ul li .comment-body { padding-left:122px; width:448px; }
+ol.commentlist ul.children li ul li ul li .comment-body { padding-left:180px; width:390px; }
+
+ol.commentlist ul.children .comment-content { width:350px; }
+ol.commentlist ul.children ul .comment-content { width:280px; }
+ol.commentlist ul.children ul ul .comment-content { width:220px; }
+
+
+#blogs-list li { margin:20px 10px 0px 10px; }
+
+.one_fourth, .one_fifth, .one_sixth { width:100%; }
+
+.activity-list .activity-content { width:87%; }
+
+.register-section h4 { font-size:21px; }
+#signup_email, #signup_password, #signup_password_confirm { width:90%!important; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:760px)
+{
+
+#main { width:317px; }
+.directory.groups #container, .directory.groups #container, .registration #container, .page-template-login-php #container, .page-template-recovery-php #container, .directory.groups #container, .page-template-search-page-php #container, .page-template-onecolumn-page-php #container, .error404 #container, .directory.blogs #container, .create-blog #container { width:317px; }
+#header-very-top { width:317px; }
+#content, #content.bbpress-page { width:285px; padding: 20px 15px 15px 15px; }
+#sidebar { width:315px; float:left; margin-top:35px; }
+.registration #content, .page-template-login-php #content, .page-template-recovery-php #content, .directory.groups #content, .page-template-search-page-php #content, .activity-permalink #content, .page-template-onecolumn-page-php #content, .directory.blogs #content, .create-blog #content, .page-template-blog3 #content, .error404 #content { width:285px; }
+footer { width:310px; }
+
+header { overflow:hidden; }
+#header-left { margin:0 auto; text-align: center; width:100%; overflow: hidden; }
+#header-left #logo { float:none; width: 60%; margin-top:5px; text-align: center; margin-left:auto; margin-right:auto; }
+#header-right { margin:0 auto; margin-top:10px; margin-bottom:7px; float:left; }
+.page-title { font-size:32px; line-height:45px; padding-left:9%; margin-bottom:8%;}
+
+
+.sidebar-title { font-size:22px; padding:12px 14px; }
+.sidebar-box-child { padding:0 14px 0 14px; }
+#sidebar img { max-width:100%; }
+
+.page-template-frontpage1 #object-nav ul li, .page-template-frontpage1 #object-nav2 ul li, .page-template-frontpage2 #object-nav ul li, .page-template-frontpage2 #object-nav2 ul li { padding:14px 10px; }
+
+.blog-post .post-title { padding:10px 25px 0px 30px; }
+.blog-post .post-title h1 { line-height: 30px!important; }
+.blog-post .post-title h1 a { font-size: 26px; line-height: 30px!important; }
+.blog-bottom-spacer { margin:0px 9px 0 9px; height:32px; }
+.blog-bottom-spacer-last { display: none; }
+.blog-bottom-category, .blog-bottom-author, .blog-bottom-date, .blog-bottom-comments, .blog-bottom-tags { font-size:11px!important; padding:10px 0 8px 0;  }
+.blog-bottom-category a, .blog-bottom-author a, .blog-bottom-date a, a.blog-bottom-comments, .blog-bottom-tags a { font-size:11px!important; }
+.blog-bottom-author { padding-left:15px!important; background-size: 12px auto; }
+.blog-bottom-date { padding-left:16px!important; background-size: 12px auto; }
+a.blog-bottom-comments { padding-left:18px!important; background-size: 12px auto; background-position: left 11px; }
+
+.entry #bbpress-forums:first-child { margin-top:-22px; }
+
+#item-header-avatar {width:40%; box-sizing: content-box; }
+div#item-header div#item-header-content { margin-left:0px; margin-top:10px; width:100%; }
+#admins-moderators { top:0px; right:6px; width: 40%; }
+
+#item-body { margin-left: -15px; margin-right: -15px; }
+
+.entry #bbpress-forums:first-child { margin:-30px -15px 0px -15px; }
+.entry #bbpress-forums { margin:0px -15px 30px -15px; }
+.entry #bbpress-forums:last-child { margin:-23px -15px 0px -15px; }
+#content.bbpress-page #bbpress-forums { margin-left:-15px; margin-right:-15px; }
+#topic-post-list .forum-cell, #topic-post-list .forum-freshness-cell, .forum-table .forum-topic-cell, .forum-table .forum-freshness-cell { padding: 10px!important; }
+#topic-post-list .forum-head-forum, #topic-post-list .forum-head-freshness { padding-left: 10px!important; padding-right: 10px!important; }
+
+table.forum-table thead .forum-head-author, table.forum-table tbody .forum-author-cell { display: none; }
+table.forum-table thead tr td { padding:10px 10px; }
+table.forum-table tr.forum-head { font-size:11px; padding:4px 0; font-family:Open Sans; }
+table.forum-table tr.forum-head td.forum-head-topic { padding-left:10px!important; }
+table#topic-post-list tr td.post-author-cell, table#topic-post-list tr td.forum-head-author { width:70px; padding-left: 21px!important; }
+table#topic-post-list tr td.post-author-cell .post-author { width:60px; margin-left: 0px; }
+table#topic-post-list tr td.post-author-cell .post-author img.avatar { width:49px; height:auto; margin-right: 0px; margin-bottom: 5px; }
+.post-author .bbp-author-role { padding:3px 0px; font-size: 9px; line-height: 1em; }
+.poster-stats {font-size: 10px;}
+table#topic-post-list tr td.post-author-cell img { width:40px; height:40px; }
+td.forum-author-cell img { width:40px; height:40px; }
+#topic-post-list thead .forum-head .forum-head-reply { padding-left: 10px!important; }
+a.bbp-author-name { font-weight:normal!important; font-size:11px; }
+.forum-head-counter, .forum-counter-cell { display:none; }
+td.forum-head-freshness, td.forum-freshness-cell { width:70px; padding-left:12px!important; border-left:1px solid #eaeaea; }
+.topic-title a.forum-post-title { font-size:16px }
+.last-poster-right { margin-left:0px; margin-top:5px; width:85px; }
+.last-poster-avatar { width:60px; padding-bottom:6px; overflow:hidden; }
+.topic-freshness img { display:block; width:50px; height:50px; }
+.topic-counter { color:#cccccc; font-size:28px; padding-top:0px; background-image:none; }
+.forum-topic-cell { padding-left:10px!important; }
+
+div#topic-meta h3 { font-size:26px; line-height:34px; }
+.bbp-pagination-links { float:left; margin-top:14px; }
+.bbp-pagination-count { margin-left: 12px; }
+
+#new-post .bbp-form, #bbp_reply_content_tbl, .bbp-the-content-wrapper, #wp-bbp_reply_content-wrap, #wp-bbp_reply_content-editor-tools, .mceFirst, #bbp_reply_content_parent, #bbp_reply_content_tbl, .mceToolbar, #wp-bbp_reply_content-editor-container, #bbp_reply_content_toolbargroup, .mceToolbar, #bbp_reply_content_toolbar1, #bbp_reply_content_toolbar1 tbody, .bbp-template-notice, legend, .bbp-submit-wrapper, .bbp-admin-links, #qt_bbp_reply_content_toolbar, #wp-bbp_reply_content-editor-container, #bbp_topic_tags { max-width:260px!important; }
+.bbp-template-notice { width:160px!important; }
+.bbp-submit-wrapper { margin-top:160px; float:left!important; }
+#bbp_reply_submit { float:left!important; }
+#bbp_reply_content_justifyright, #bbp_reply_content_fullscreen, #bbp_reply_content_unlink, #bbp_reply_content_link, #bbp_reply_content_redo, #bbp_reply_content_undo { display:none; }
+
+.bbp-lead-topic .bbp-topic-author { width: 17%; }
+.bbp-lead-topic .bbp-topic-content { width: 70%; font-size: 14px; }
+
+
+.page-template-search-page-php #search-form { margin:60px 0 60px 0px; width:300px; }
+.page-template-search-page-php .search-terms { font-size:16px; }
+.page-template-search-page-php #search-which, .page-template-search-page-php select option { font-size:16px; }
+.page-template-search-page-php #search-submit { margin-top:20px; margin-left:0px; }
+#search-page-border { width:260px; border:none!important; }
+.search-terms, #search-which { margin-bottom:7px; border:1px solid #cccccc!important; border-radius:5px; padding:4px; margin-left:0px!important; }
+
+div.thumbnail { width:96%; }
+
+#comments { background-image:none; }
+#comments ol.commentlist li.thread-even { padding:0 16px 0 16px; }
+#comments ol.commentlist li.thread-odd { padding:0 16px 0 16px; }
+.commentlist div.comment-content { width:225px; }
+.comment-counter { display:none; }
+ol.commentlist div.comment-avatar-box { width:30px; height:30px; }
+.commentlist ul.children div.comment-avatar-box {width:25px; height: 25px;}
+ol.commentlist div.comment-avatar-box img, .commentlist ul.children div.comment-avatar-box img {  }
+.commentlist ul.children div.comment-avatar-box {  }
+
+ol.commentlist ul.children li .comment-body { padding-left:58px; width:262px; }
+ol.commentlist ul.children li ul li .comment-body { padding-left:105px; width:200px; }
+ol.commentlist ul.children li ul li ul li .comment-body { padding-left:150px; width:150px; }
+ol.commentlist ul.children li ul li ul li ul li .comment-body { padding-left:150px; width:150px; }
+ol.commentlist ul.children li ul  li ul li ul li ul li .comment-body { padding-left:150px; width:150px; }
+ol.commentlist ul.children li ul li ul li ul li ul li ul li .comment-body {padding-left:150px; width:150px; }
+
+ol.commentlist ul.children .comment-content { width:175px; }
+ol.commentlist ul.children ul .comment-content { width:122px; }
+ol.commentlist ul.children ul ul .comment-content { width:80px; }
+ol.commentlist ul.children ul ul ul .comment-content { width:80px; }
+ol.commentlist ul.children ul ul ul ul .comment-content { width:80px; }
+ol.commentlist ul.children ul ul ul ul ul .comment-content { width:80px; }
+
+#respond input#author, #respond input#email, #respond input#url { width:200px!important; }
+
+ul.children #respond { width: 80%!important; }
+
+.thread-from img.avatar { width:30px; height:auto; }
+
+.footer-left { width:90%; }
+.footer-right { float:left; margin-top:15px; }
+
+.wpcf7-text { width:200px!important; }
+.wpcf7-form-control-wrap textarea { width:240px!important; }
+
+ul#activity-stream li .activity-comments ul { margin-left:0px; }
+body.activity-permalink .activity-list li .activity-avatar { width:50%; display:block; }
+body.activity-permalink .activity-list li .activity-content { margin-left:0px; margin-top:10%; display:block; padding:0px; float:left; width:100%; }
+.activity-list .activity-content { width:80%; }
+.activity-list .activity-avatar img { width:30px; height:auto; }
+.activity-list li.mini .activity-content { width:75%; padding-right: 4%; }
+.activity-list li.mini .activity-avatar img.avatar, .activity-list li.mini .activity-avatar img.FB_profile_pic {height: 20px;margin-left: 20px;width: 20px;}
+form#whats-new-form #whats-new-avatar img { width:35px; height:auto; }
+.activity-greeting { padding-left:50px; }
+form#whats-new-form #whats-new-content {margin-left: 30px;padding-left: 22px;}
+div.ac-reply-avatar img {width:35px; height: auto; }
+.ac-reply-content { padding-left: 0px!important; }
+
+.standard-form #basic-details-section, .standard-form #blog-details-section, .standard-form #profile-details-section {width: 100%;}
+#page-login-form { width:230px; }
+#page-user-login { width:210px; }
+#page-user-pass { width:210px; }
+
+body.friends ul#members-list li { min-height:140px; }
+#members-dir-list #members-list li { padding-bottom:50px; }
+
+#blogs-list li { margin:20px 10px 0px 45px; }
+
+.one_third { width:100%; }
+
+.profile-fields td.label { min-width:150px; }
+
+#basic-details-section { margin-bottom: 30px; display:table;  }
+
+
+pre { font-size: 13px; max-width: 270px!important; }
+.text table td { padding: 3px!important; }
+.sidebar-box img, .sidebar-box .wp-caption img { max-width: 98%!important; }
+select option { font-size:14px; max-width: 230px; }
+
+.page-template-frontpage1 .spacer-50, .page-template-frontpage2 .spacer-50 { background-image:none; }
+
+}

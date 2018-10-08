@@ -1,0 +1,27 @@
+#wp-submit, #signup_submit, .wpcf7-submit, #post-topic-reply #submit, #new-topic-post #submit, .my-account #submit, #new-topic-button, .page-template-search-page-php #search-submit, #comment-submit { background:#ff1a01; box-shadow: 0px 2px 0px #ff1a01; border-bottom:1px solid #ff7162; }
+header .tile, header .tile2, #front-login-submit, #members_search_submit, span.activity, #item-nav, #object-nav, #object-nav2, .object-nav-container, #bbp-search-form #bbp_search_submit, .comment-options .comment-reply-link, .comment-options .comment-edit-link, .icon-share { background:#ff1a01; }
+header .tile:hover { background:#ff1a01; background: linear-gradient(135deg, #ff7162 0%,#ff7162 50%,#ff1a01 50%,#ff1a01 100%); }
+#ajaxsearchpro1 .probox { background:url( "../images/search_h.png" ) no-repeat; }
+.page-title, .post-title { text-shadow:#d41601 1px 1px 0px; background:#ff1a01; }
+div#bbpress-forums h3 { background:#ff1a01; text-shadow:#ff1a01 1px 1px 0px;  }
+nav ul li.current-menu-item { background:#ff1a01; }
+nav ul ul { border-top:3px solid #ff1a01; }
+nav ul li.parent:hover { background-image: url( ../images/menu-arrow1_h.png ); }
+nav ul li ul li.parent:hover { background-image: url( ../images/menu-arrow2_h.png ); }
+nav ul li ul ul { border-left-color:#ff1a01;}
+span.activity:hover { background:#d41601; }
+
+
+#object-nav ul li, #object-nav2 ul li { border-right-color:#ff7162; border-bottom-color:#ff7162; }
+#object-nav ul li a, #object-nav2 ul li a { text-shadow: 1px 1px 0px #d41601; }
+#object-nav ul li.current, #object-nav2 ul li.current, #object-nav ul li:hover, #object-nav2 ul li:hover, #object-nav ul li.selected a span, #object-nav ul li.current a span, div.item-list-tabs ul li a:hover span { background:#d41601; }
+#object-nav ul li a span { background: #ff1a01; border-color:#ff7162; }
+.item-nav-border, .item-nav-border div, .blog-bottom-spacer { background:#ff7162; }
+.shortcode-bp-groups-tabs-container .object-nav-container, .shortcode-posts-tabs-container .object-nav-container { border-bottom-color:#ff7162; }
+
+.blog-bottom {border-top-color:#ff7162; }
+
+ul.forum-lastposts-container li.forum-lastposts .forum-lastposts-content { background:#ff1a01; }
+ul.forum-lastposts-container li.forum-lastposts .forum-lastposts-content:hover { background:#d41601; }
+
+#create-group-button { background:#ff1a01; border-color:#ff7162;}

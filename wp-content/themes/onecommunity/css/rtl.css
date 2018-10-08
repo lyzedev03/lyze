@@ -1,0 +1,6 @@
+body { direction: rtl; unicode-bidi: embed; }
+#header-right { float:left; }
+#header-right .tile img { margin-right: 7px; }
+#logo { float:right; }
+#admins-moderators { right:200px; }
+.footer-left { width:150px; }

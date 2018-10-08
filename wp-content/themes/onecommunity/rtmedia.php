@@ -1,0 +1,3 @@
+<?php
+// rtmedia loads here
+?>

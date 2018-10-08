@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'locallyzDBgoazl');
+define('DB_NAME', 'lyzeDBdmad');
 
 /** MySQL database username */
-define('DB_USER', 'locallyzDBgoazl');
+define('DB_USER', 'lyzeDBdmad');
 
 /** MySQL database password */
-define('DB_PASSWORD', '8hNB0qfQI3');
+define('DB_PASSWORD', 'urXgDPRaA');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'taa]A2LxNY>B8R!@0cvo8NUj3IBy},3fzr^Ngn$IXQ^<7j$u,Ujq*PeXm6Eq*y{');
-define('SECURE_AUTH_KEY',  'i+Pie]DKa#91Ht#~;aWl1HOd:C5O-[_5hdp9SVo4JCR!0[Co@wGVcrBQJY>70Fv|@');
-define('LOGGED_IN_KEY',    'crFBR!47Q$,7jfrBQMY>7ET.2{Aq*yIXQfELa]A2Hx<*Pebm6LSi1LDS~+]Wmix');
-define('NONCE_KEY',        ':rFcUk4JBR!z>Yov,Ujcr7QFY,^0cr${XqjyIXQf>7jyetAPHa<6;Hu.+LbhxHWP');
-define('AUTH_SALT',        'Gs[dFY>}Fvs|VkdsCJY,70Fr^z}YrkzJQf{E7M$,7jyrBQXm6LET.3{Aq^y<XetD');
-define('SECURE_AUTH_SALT', 'g00Gw[!1gw@NcUk4JBR@0>8k@^3jcr7QJY,70Fr,{AmjyETQf{E7My{;Huq*LbXm2');
-define('LOGGED_IN_SALT',   'gzNJZ[8J$}Fvr,URg0JU,73n^$Qnj3MXmA6P*^fyuEXm6TL*2;e+yLep9SO_92l');
-define('NONCE_SALT',       '{qLM*2Eu*2iexHaX]DAu<W#95l*.Wpm9Th15O~~1hh+OZsCCR!_5l~-OhsFJc0:J');
+define('AUTH_KEY',         '_aWH#xhWaK9]pdOSG1whSC15|-ZK8C1!hRG14G4zwgG0!vgRCF0!rcRB!rgRUJ4zn');
+define('SECURE_AUTH_KEY',  '5xhSD9#wtdKG:.*qXTE{+yePL2;*mXTA6<teaH2;*miT96_tpWHD;+liOL5_~pWHD');
+define('LOGGED_IN_KEY',    'X^nQ*jXI<+mPA*uTH2xmLA*qiH]+qPD.tiH6+ma9;teSD_xWK5-pOD:thS1_wVK5');
+define('NONCE_KEY',        't5~hWH#-aK9~pdD:_hSG|-lK8[odO:@sRC0wkJ4[oZN}@rRF00^vUJ3znY7}$cQB^');
+define('AUTH_SALT',        'X^jX6{qbP*ueeTD;maA]*ePD_tiS2_xWH1#laK]-pZ9[~dOC:shG1|wVG4|kVK4z');
+define('SECURE_AUTH_SALT', 't5xaH:-hO5#sZK1_oVG:-hO8|sdK0!oVG}@gR8>vcN4,rYJ0@nYF}@kRB>zgN7,vc');
+define('LOGGED_IN_SALT',   'T<iL2.qxeP6#taL2_pWD;-hS9]wdO5#tZK1~lSC[-hO8|sdK4!oVG}zkR8[vcNUF}');
+define('NONCE_SALT',       'E{*yqibXPIA2;<*xqieXPHA2;<*xqieXPHA6;{.+umiaTLEA2].+tqiaTPHA2;#*x');
 
 /**#@-*/
 

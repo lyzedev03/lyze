@@ -1,0 +1,4 @@
+.clear{ clear: both; }
+.hiddend{ display: none; }
+#ajaxsearchpro1 textarea:focus, #ajaxsearchpro1 input:focus{ outline: none; }
+#top-bar-right { width:185px; position: relative; }
